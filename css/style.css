@@ -1,0 +1,50 @@
+.container-b{
+    background: black;
+}
+
+.contenido-b{
+    height: 300px;
+    border: blue solid;
+    background-color: red;
+}
+
+.contenido-a{
+    height: 250px;
+    border: green solid;
+    background: black;
+}
+
+.balaso-2 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.contenido-a h2{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+.contenido-c{
+    background: yellow;
+    height: 150px;
+    border: white solid;
+}
+
+.contenido-c h3{
+    font-size: 30px;
+    color: green;
+    text-align: left;
+}
+
+#productos  .res h2{
+    font-size: 60px;
+    color: red;
+    border-bottom: green 2px solid;
+    
+    margin-right: 930px;
+}
+
+#productos .res .tabla-1{
+    padding: 0 10px;
+}
