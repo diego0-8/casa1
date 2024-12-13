@@ -1,4 +1,4 @@
-
+/*  */
 #contenido {
     background-image: url(../img/portada.png);
     height: 945px;
@@ -117,5 +117,142 @@
 #contenido .base-2 .num2 i{
     
     color: #007bff;
+}
+
+/* main */
+
+#base-1{
+    
+    height: 945px;
+    background: #191970;   
+    
+}
+
+/* deporte */
+
+#base-1 .primero{
+    background: #007bff;
+    margin-left: 80px;
+    margin-right: 10px;
+    padding: 3px 15px;
+    position: relative;
+    bottom: 81px;
+    width: 30%;
+    height: 512px;
+    
+}
+
+#base-1 .primero .pajaro{
+    display: flex;
+    color: #fff;
+    margin-left: 81px;
+    margin-top: 97px;
+    align-items: center;
+}
+
+#base-1 .primero i{
+    margin-top: 5px;
+    font-size: 32px;
+}
+
+#base-1 .primero i h3{
+    margin-left: 226px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#base-1 .parrafo-1 p{
+    color: white;
+    font-size: 32px;
+    margin-left: 33px;
+    margin-bottom: 11px;
+}
+
+#base-1 .parrafo-1 p b{
+    color: #191970;
+}
+
+#base-1 .parrafo-1 img{
+    position: absolute;
+    top: 312px;
+    left: 53px;
+    width: 394px;
+}
+
+
+
+
+/* gamer */
+
+#base-1 .segundo{
+    background: #4169E1;
+    padding: 3px 15px;
+    position: relative;
+    bottom: 81px;
+    width: 30%;
+    margin: 0 10px;
+    height: 609px;
+}
+
+#base-1 .segundo img{
+    position: absolute;
+    bottom: 395px;
+    left: 53px;
+    width: 394px;
+}
+
+#base-1 .segundo h4{
+    color: white;
+    font-size: 11px;
+    margin-left: 25px;
+    margin-top: 271px;
+    text-align: left;
+}
+
+#base-1 .segundo h5{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+#base-1 .segundo p{
+    color: white;
+    text-align: left;
+    margin-left: 25px;
+    font-size: 17px;
+    margin-top: 25px;
+}
+
+#base-1 .segundo h6{
+    color: white;
+    display: flex;
+    margin-left: 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#base-1 .segundo h6 b{
+    margin-left: 179px;
+    opacity: 0.3;
+}
+
+#base-1 .segundo h6 i{
+    margin: 0 10px;
+    opacity: 0.3;
+}
+
+
+/* solo texto */
+
+#base-1 .tercero{
+    background: #61273a;
+    margin-left: 1px;
+    padding: 3px 15px;
+    position: relative;
+    bottom: 81px;
+    width: 30%;
+    margin: 0 10px;
 }
 
