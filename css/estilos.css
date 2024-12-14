@@ -2,6 +2,7 @@
 #contenido {
     background-image: url(../img/portada.png);
     height: 945px;
+    z-index: 2;
 }
 
 #contenido .navbar{
@@ -40,6 +41,7 @@
     font-size: 21px;
     color: white;
     display: flex;
+    margin-left: 29px;
 }
 
 /* #contenido .play i{
@@ -122,10 +124,8 @@
 /* main */
 
 #base-1{
-    
     height: 945px;
     background: #191970;   
-    
 }
 
 /* deporte */
@@ -247,12 +247,157 @@
 /* solo texto */
 
 #base-1 .tercero{
-    background: #61273a;
+    background: #191970;
     margin-left: 1px;
     padding: 3px 15px;
     position: relative;
     bottom: 81px;
     width: 30%;
     margin: 0 10px;
+    z-index: 1;
 }
 
+#base-1 .circulos{
+    display: flex; 
+    margin-left: 40px;
+    margin-top: 16px;
+    z-index: 4;
+}
+
+
+
+#base-1 .tercero .circulos i{
+    color: white;
+    font-size: 15px;
+    margin-top: 9px;
+    margin-right: 10px;
+}
+
+#base-1 .tercero .circulos .punto{
+    font-size: 10px;
+}
+
+#base-1 .tercero .circulos h3{
+    color: white;
+    opacity: 0.3;
+    margin-left: 180px;
+    margin-top: 9px;
+    font-size: 15px;   
+}
+
+#base-1 .tercero h2{
+    color: white;
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 180px;
+    margin-left: 30px;
+
+}
+
+#base-1 .tercero p{
+    margin-left: 30px;
+    margin-top:20px;
+    color: white;
+
+}
+
+#base-1 .tercero button{
+    margin-left: 40px;
+    background: #007bff;
+    color: #fff;
+    border: #191970;
+    padding: 10px 20px;
+    margin-top: 20px;
+    transition: .4s;
+}
+
+#base-1 .tercero button:hover{
+    background: white;
+    color: #4169E1;
+    border: #fff;
+}
+
+/* base2 */
+
+#base-2{
+    height: 945px;
+    background: #191970;
+    position: relative;  
+}
+
+/* #base-2 .parte-1{
+    background: red;
+} */
+
+#base-2 .parte-1 h2{
+    font-size: 100px;
+    color: white;
+    text-align: left;
+    margin-left: 72px;
+    margin-top: 200px;
+}
+
+#base-2 .parte-1 .btn1{
+    margin-left: 92px;
+    margin-top:10px;
+    background: #007bff;
+    color: white;
+    font-weight: bold;
+    border: 2px #191970 solid;
+    padding: 15px 20px;
+    font-size: 15px;
+}
+
+#base-2 .parte-1 .btn1:hover{
+    background: transparent;
+    color: #4169E1;
+    font-weight: 700;
+    border: 2px black solid;
+}
+
+#base-2 .parte-1 .btn2{
+    /* margin-left: 72px; */
+    margin-top:10px;
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    font-size: 20px;   
+}
+
+#base-2 .parte-1 .btn2:hover{
+    color: #4169E1;
+}
+
+
+#base-2 .parte-2{
+    background: #0c0c4b;
+    right: 30px;
+    width: 989px;
+    position: absolute;
+    
+}
+
+
+#base-2 .parte-2 img{
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+
+#base-2 .parte-2 h3{
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+    margin-left: 84px;
+}
+
+#base-2 .parte-2 h4{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #007bff;
+    margin-left: 20px;
+    font-size: 35px;
+}
